@@ -33,6 +33,7 @@ export interface AlbumConfig {
   songTitle: string;
   songArtist: string;
   songUrl: string; // URL or path to audio file
+  youtubeUrl?: string;
   polaroids: PolaroidMemory[];
   timeline: TimelineEvent[];
   loveEnvelopes: LoveEnvelope[];
@@ -42,19 +43,20 @@ export interface AlbumConfig {
 export const albumData: AlbumConfig = {
   recipientName: 'Shany',
   authorName: 'Dariel',
-  startDate: '2023-08-16', // Actualizado a 16 de Agosto
+  startDate: '2023-08-16', // Inicio de su relación: 16 de Agosto
   songTitle: 'Collide',
   songArtist: 'Paris Jackson',
-  songUrl: 'https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=romantic-acoustic-guitar-11270.mp3', // Audio romántico de fondo por defecto
+  songUrl: '/audio/collide.mp3', // MP3 oficial copiado a public/audio/collide.mp3
+  youtubeUrl: 'https://youtu.be/7lSFLDQkQKs',
   polaroids: [
     {
       id: 'pol-1',
       title: 'Nuestra Primera Cita',
       image: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=80',
-      date: '15 de Mayo',
+      date: '16 de Agosto',
       location: 'Nuestro lugar favorito',
       category: 'citas',
-      backNote: 'Ese día no podía dejar de mirarte. Estaba tan nervioso pero tu sonrisa hizo que todo fuera perfecto. Supe desde ese instante que eras especial.',
+      backNote: 'Ese 16 de agosto supe que mi vida cambiaba para siempre. No podía dejar de mirarte y tu sonrisa hizo todo perfecto.',
       rotation: '-rotate-2',
     },
     {
@@ -111,9 +113,9 @@ export const albumData: AlbumConfig = {
   timeline: [
     {
       id: 'time-1',
-      title: 'El Día que todo comenzó',
-      date: '15 de Mayo de 2023',
-      location: 'Nuestro primer encuentro',
+      title: 'El Día que comenzó nuestra historia',
+      date: '16 de Agosto',
+      location: 'Nuestro primer momento juntos',
       description: 'Una mirada bastó para saber que nuestras vidas iban a cambiar para siempre. La mejor coincidencia de mi vida.',
       image: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=800&q=80',
       icon: 'sparkles',
@@ -121,7 +123,7 @@ export const albumData: AlbumConfig = {
     {
       id: 'time-2',
       title: 'Nuestro Primer "Te Amo"',
-      date: '24 de Julio de 2023',
+      date: '24 de Septiembre',
       location: 'Bajo las estrellas',
       description: 'Las palabras salieron del corazón sin pensarlo. Y sentir que tú sentías lo mismo fue el regalo más hermoso.',
       image: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=80',
@@ -130,7 +132,7 @@ export const albumData: AlbumConfig = {
     {
       id: 'time-3',
       title: 'Nuestro Primer Viaje Juntos',
-      date: '20 de Agosto de 2023',
+      date: '20 de Noviembre',
       location: 'La Playa',
       description: 'Días llenos de sol, mar, comida deliciosa y conversaciones profundas de noche mirando las estrellas.',
       image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80',
@@ -139,7 +141,7 @@ export const albumData: AlbumConfig = {
     {
       id: 'time-4',
       title: 'Celebrando Nuestro Aniversario',
-      date: '15 de Mayo de 2024',
+      date: '16 de Agosto',
       location: 'Cena Romántica',
       description: 'Un año de sonrisas, apoyo mutuo, momentos increíbles y la certeza de que quiero seguir a tu lado miles de días más.',
       image: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=800&q=80',
