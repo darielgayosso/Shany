@@ -43,7 +43,7 @@ export interface AlbumConfig {
 export const albumData: AlbumConfig = {
   recipientName: 'Shany',
   authorName: 'Dariel',
-  startDate: '2023-08-16', // Inicio de su relación: 16 de Agosto
+  startDate: '2026-08-16', // Inicio de su relación: 16 de Agosto de 2026
   songTitle: 'Collide',
   songArtist: 'Paris Jackson',
   songUrl: '/audio/collide.mp3', // MP3 oficial copiado a public/audio/collide.mp3
