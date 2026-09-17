@@ -42,7 +42,7 @@ export interface AlbumConfig {
 export const albumData: AlbumConfig = {
   recipientName: 'Shany',
   authorName: 'Dariel',
-  startDate: '2023-05-15', // Fecha por defecto (puedes cambiarla en cualquier momento)
+  startDate: '2023-08-16', // Actualizado a 16 de Agosto
   songTitle: 'Collide',
   songArtist: 'Paris Jackson',
   songUrl: 'https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=romantic-acoustic-guitar-11270.mp3', // Audio romántico de fondo por defecto
