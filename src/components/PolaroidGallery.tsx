@@ -35,7 +35,7 @@ export function PolaroidGallery() {
       <div className="text-center mb-8">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-pink-100 text-pink-700 text-xs font-bold mb-3 shadow-xs">
           <Sparkles className="w-3.5 h-3.5 text-pink-500" />
-          <span>Álbum de Recuerdos Polaroid</span>
+          <span>Álbum de Recuerdos</span>
         </div>
         <h2 className="text-3xl sm:text-4xl font-black bg-gradient-to-r from-pink-600 via-rose-500 to-red-500 bg-clip-text text-transparent">
           Nuestras Fotos
