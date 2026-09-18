@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 import { FloatingHearts } from '@/components/FloatingHearts';
 import { Navbar, ScreenView } from '@/components/Navbar';
 import { PolaroidGallery } from '@/components/PolaroidGallery';
-import { Timeline } from '@/components/Timeline';
 import { LoveCounter } from '@/components/LoveCounter';
 import { MusicPlayer } from '@/components/MusicPlayer';
 import { Dashboard } from '@/components/Dashboard';
@@ -17,7 +16,6 @@ import {
   completeGame,
   updateRecipientName,
   updateCustomLetter,
-  resetAllProgress,
   ArcadeProgress,
 } from '@/lib/storage';
 
@@ -73,8 +71,6 @@ export default function Home() {
       {/* Main Container Views */}
       <main className="flex-1 flex flex-col items-center justify-start relative z-10 py-6 px-4">
         {currentScreen === 'album' && <PolaroidGallery />}
-
-        {currentScreen === 'timeline' && <Timeline />}
 
         {currentScreen === 'counter' && <LoveCounter />}
 

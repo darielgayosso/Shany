@@ -1,10 +1,10 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Volume2, VolumeX, Heart, Edit2, Check, Camera, Clock, Sparkles, Gamepad2 } from 'lucide-react';
+import { Volume2, VolumeX, Heart, Edit2, Check, Camera, Clock, Gamepad2 } from 'lucide-react';
 import { sounds } from '@/lib/soundUtils';
 
-export type ScreenView = 'album' | 'timeline' | 'counter' | 'arcade' | 'game1' | 'game2' | 'game3' | 'letter';
+export type ScreenView = 'album' | 'counter' | 'arcade' | 'game1' | 'game2' | 'game3' | 'letter';
 
 interface NavbarProps {
   currentScreen: ScreenView;
@@ -41,7 +41,6 @@ export function Navbar({
 
   const navItems = [
     { id: 'album' as ScreenView, label: 'Fotos', icon: Camera },
-    { id: 'timeline' as ScreenView, label: 'Historia', icon: Sparkles },
     { id: 'counter' as ScreenView, label: 'Amor', icon: Clock },
     { id: 'arcade' as ScreenView, label: 'Arcade 🎮', icon: Gamepad2 },
   ];
