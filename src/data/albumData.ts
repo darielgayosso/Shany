@@ -67,7 +67,7 @@ export const albumData: AlbumConfig = {
       date: 'Un día muy bonito',
       location: 'El Mariposario',
       category: 'citas',
-      backNote: 'Había mariposas volando por todos lados y tambien fuimos al insectario, pero me guto mas el mariposario, volveria a ir contigo',
+      backNote: 'Había mariposas volando por todos lados y tambien fuimos al insectario, pero me gusto mas el mariposario, volveria a ir contigo',
       rotation: '-rotate-3',
     },
     {
@@ -77,7 +77,7 @@ export const albumData: AlbumConfig = {
       date: 'Un pastelito',
       location: 'Mi casa/ tu casa',
       category: 'risas',
-      backNote: 'Fuie muy repentino pero al final fuiste y me la pase muy bien a tu lada, gracias por haber estado ese dia',
+      backNote: 'Fue muy repentino pero al final fuiste y me la pase muy bien a tu lado, gracias por haber estado ese dia',
       rotation: 'rotate-2',
     },
     {
