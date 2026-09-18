@@ -61,7 +61,7 @@ export function Navbar({
           </div>
           <div>
             <span className="font-black text-base sm:text-lg bg-gradient-to-r from-pink-600 via-rose-500 to-red-500 bg-clip-text text-transparent">
-              Álbum de {recipientName} 💕
+              Shariel 💕
             </span>
           </div>
         </button>

@@ -77,7 +77,7 @@ export function LoveCounter() {
         </div>
 
         <h2 className="text-2xl sm:text-3xl font-extrabold mb-6">
-          {albumData.authorName} y {albumData.recipientName} llevan juntos 💕
+          Llevamos juntos 💕
         </h2>
 
         {/* Counter Grid */}
@@ -120,7 +120,7 @@ export function LoveCounter() {
         </div>
 
         <p className="text-xs text-white/80 mt-6 italic">
-          ...y cada segundo a tu lado cuenta como el mejor momento del día. 💖
+          ...y los que siguen corazon 💖
         </p>
       </div>
 
@@ -177,7 +177,7 @@ export function LoveCounter() {
           <span>Razones para Amarte</span>
         </div>
         <h3 className="text-2xl font-black text-gray-800 mb-2">
-          ¿Por qué amo a {albumData.recipientName}? 💕
+          ¿Por qué te amo {albumData.recipientName}? 💕
         </h3>
         <p className="text-xs text-gray-500 mb-6">
           Razón #{currentReasonIndex + 1} de {albumData.loveReasons.length}

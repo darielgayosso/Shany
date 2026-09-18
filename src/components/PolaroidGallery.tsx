@@ -11,11 +11,11 @@ export function PolaroidGallery() {
   const [activeModalPhoto, setActiveModalPhoto] = useState<PolaroidMemory | null>(null);
 
   const categories = [
-    { id: 'todas', label: 'Todas 💕' },
-    { id: 'citas', label: 'Citas 🌹' },
-    { id: 'viajes', label: 'Viajes ✈️' },
-    { id: 'risas', label: 'Risas 😂' },
-    { id: 'especiales', label: 'Especiales ✨' },
+    { id: 'todas', label: 'Todas ' },
+    { id: 'citas', label: 'Citas ' },
+    { id: 'viajes', label: 'Viajes ' },
+    { id: 'risas', label: 'Risas ' },
+    { id: 'especiales', label: 'Especiales ' },
   ];
 
   const filteredMemories =
@@ -38,7 +38,7 @@ export function PolaroidGallery() {
           <span>Álbum de Recuerdos Polaroid</span>
         </div>
         <h2 className="text-3xl sm:text-4xl font-black bg-gradient-to-r from-pink-600 via-rose-500 to-red-500 bg-clip-text text-transparent">
-          Nuestras Fotos Especiales 📸
+          Nuestras Fotos
         </h2>
         <p className="text-sm text-pink-800/80 mt-2 max-w-md mx-auto">
           Haz clic en cualquier foto para girarla y leer el secreto o dedicatoria escrita al reverso 💌

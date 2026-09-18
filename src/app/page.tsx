@@ -116,7 +116,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="w-full text-center py-6 text-xs text-pink-800/70 font-medium relative z-10 border-t border-pink-100/60 bg-white/50 backdrop-blur-xs">
-        <p>Hecho con 💖 por Dariel para Shany • Álbum de Recuerdos Inolvidables</p>
+        <p>Hecho con 💖 para ti mi Shany • Álbum de Recuerdos Inolvidables</p>
       </footer>
     </div>
   );
